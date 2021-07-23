@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .pay{position: relative;
+    left: -173px;font-size: 12px;
+}
+
+.linkss{    margin-left: 24px;
+    position: relative;
+    font-weight: 600;
+    top: -12px;
+    border: 1px solid grey;
+    color:#4CC4FF;
+    padding: 5px;
+}
+.link{margin-left: 73px;
+    position: relative;
+    top: -14px;
+    font-weight: 600;
+    color:#4CC4FF;
+    border: 1px solid grey;
+    padding: 5px;
+
+}
+.up{    position: relative;
+    top: -15px;font-size: 12px;
+}
+
+.bank{    position: relative;
+    top: -21px;left: 0px;font-size: 12px;
+}
+
+.radioss{position: relative;
+    top: -69px;
+    width: 15px;
+    left: 416px;
+}
+.ama{position: relative;
+    left: -175px;font-size: 12px;
+}
+.radios{position: relative;
+    left: 242px;
+    width: 15px;
+    top: -13px;
+}
+
+.top{position: relative;
+    top: -11px;}
+.acc{
+    line-height: 41px;
+    list-style-type: none;
+}
+        .mts{position: relative;top:-40px;left:10px;}
+        h1 {
+  font-family: Open Sans, "Helvetica", sans-serif;
+  text-align:center;
+  color:#999;
+  font-size:24px;
+  font-weight:100;
+  letter-spacing:1px;
+  padding-top:10px;
+}
+.left-nav:hover{
+  cursor:pointer;
+  color:#298bbb;
+}
+.left-nav:hover polyline{
+  stroke:#298bbb;
+}
+.nav-text:hover {
+  color:#298bbb;
+  cursor:pointer;
+}
+.back-arrow{
+  display:inline;
+  float:left;
+  padding-left:20px;
+  padding-top:17px;
+}
+.back-arrow:hover polyline{
+}
+.nav-text {
+  display:inline;
+  float:left;
+  padding-top:19px;
+  padding-left:12px;
+  width:200px;
+  font-family: Open Sans,"Helvetica", sans-serif;
+  text-transform:uppercase;
+  font-weight:700;
+  text-align:left;
+  color:#4CC4FF;
+  font-size:12px;
+  letter-spacing:2px;
+}
+.close-x {
+  display:inline;
+  padding-right:20px;
+  padding-top:17px;
+  float:right;
+}
+.close-x:hover{
+  cursor:pointer;
+}
+.close-x:hover g{
+  stroke:red;
+}
+.widget-container {
+  position: absolute;
+  top:35%;
+  left:50%;
+  margin-top:-215px;
+  margin-left:-175px;
+  background:#fff;
+  width: 350px;
+  height:532px;
+  box-shadow: 0px 0px 40px #A3BBC3;
+}
+.inputs{
+  margin: 10px 20px 30px 20px;
+  padding:3px 20px;
+  display:inline-block;
+  background:#fbfbfb
+    ;
+  border-radius: 4px;
+  -moz-box-shadow:    inset 0px 1px 5px #dadada;
+  -webkit-box-shadow: inset 0px 1px 5px #dadada;
+  box-shadow:         inset 0px 1px 5px #dadada;
+}
+.top-nav{
+  background:#fff;
+  height:50px;
+  width:100%;
+  display:inline-block;
+  border-bottom:1px solid #f1f1f1;
+}
+
+input {
+  background:#fbfbfb;
+  border:none;
+  outline:none;
+  height:60px;
+  font-size:14px;
+  letter-spacing:1px;
+  color:#434343;
+  width:227px;
+  position:relative;
+  float:left;
+  border-bottom:1px solid #f1f1f1;
+  font-family: Open Sans,"Helvetica", sans-serif;
+}
+.card-icon{
+  display:relative;
+  float:left;
+  width:21px;
+  padding-top:20px;
+  margin-right:20px;
+}
+.left-input{
+  width:150px;
+  display:inline-block;
+  float:left;
+}
+.right-input{
+  width:100px;
+  display:inline-block;
+  float:left;
+}
+.right-input input{
+  width:50px;
+  display:inline-block;
+  float:left;
+}
+.month{
+  width:35px;
+  display:inline-block;
+  float:left;
+}
+.year{
+  width:50px;
+  display:inline-block;
+  float:left;
+}
+.slash{
+  display:inline-block;
+  float:left;
+  padding-top:22px;
+  padding-right:10px;
+}
+.last {
+  border-bottom:none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  letter-spacing:2px;
+  color:#d1d1d1; 
+}
+::-moz-placeholder { /* Firefox 19+ */
+  letter-spacing:2px;
+  color:#d1d1d1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  letter-spacing:2px;
+  color:#d1d1d1;
+}
+:-moz-placeholder { /* Firefox 18- */
+  letter-spacing:2px;
+  color:#d1d1d1;
+}
+
+.btn_style{
+  background:#4CC4FF;
+  color:#fff;
+  text-align:center;
+  border-bottom:none;
+  height: 70px;
+  font-size:20px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  width:350px;
+  margin-top:3px;
+}
+.btn_style:hover{
+  background:#298bbb;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor:pointer;
+}
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <div class="widget-container">
+           <div class="top-nav">
+             <div class="left-nav">
+               <div class="back-arrow">
+                 <svg width="10px" height="17px" viewBox="0 0 10 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                   <polyline id="Path-2" stroke="#2EC4FE" stroke-width="2" points="8.99665918 16 1.48001099 8.48335181 8.98002946 0.983333333"></polyline>
+                 </g>
+                 </svg>
+               </div>
+               <div class="nav-text">
+                 Withdraw
+               </div>
+             </div>
+         <div class="close-x">
+           <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#777" stroke-width="2">
+                <path d="M0,12.7279221 L12.7279221,0" id="Path"></path>
+                <path d="M0,12.7279221 L12.7279221,0" id="Path" transform="translate(6.363961, 6.363961) scale(1, -1) translate(-6.363961, -6.363961) "></path>
+            </g>
+        </g>
+    </svg>
+         </div>
+       </div>
+       <h1> Winings Balance : Rs 1.44</h1>     
+       <form action="#">
+         <div class="inputs">
+        
+           <input type="text" name="name" placeholder="Enter amount">
+           <div class="card-icon">
+             <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIxcHgiIGhlaWdodD0iMThweCIgdmlld0JveD0iMCAwIDIxIDE4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzOS4xICgzMTcyMCkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+Y2FyZDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJjYXJkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjAwMDAwMCwgMS4wMDAwMDApIiBzdHJva2U9IiNBQTkxQTQiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwb2x5bGluZSBpZD0iUmVjdGFuZ2xlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHBvaW50cz0iMCAxNiAwIDAgMTkgMCAxOSAxNCA2LjAxNjgyMTI5IDE0Ij48L3BvbHlsaW5lPgogICAgICAgICAgICA8cGF0aCBkPSJNMC4wMzI3MTQ4NDM4LDUuNTgyMjc1MzkgTDE4LjE5NTE3NTksNS41ODIyNzUzOSIgaWQ9IlBhdGgtMiI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" />
+
+             <span style="white-space: nowrap;    position: relative;
+             top: -23px;
+             left: 80px;
+             color: grey;">Min 0 - Max 0</span>
+           </div>
+       
+           
+
+           
+         </div>
+
+         <div class="nav-text mts">
+            Withdrawal methods
+          </div>
+
+          <ul class="acc"> 
+<li class="pay"><img src="images/paytm_logo.png" width="40" > &nbsp; &nbsp; <span> Paytm  </span>  <input type="checkbox" class="radios"></li>
+
+<li class="ama"><img src="images/amazon-pay.png" width="40" > &nbsp; &nbsp; <span class="top"> Amazon Pay </span> <input type="checkbox" class="radioss"></li>
+<li class="up"><img src="images/upi.png" width="40" > &nbsp; &nbsp; <span class="top"> UPI </span> <span class="link">Linked Account</span></li>
+<li class="bank"><img src="images/bank_transfer.png" width="40" > &nbsp; &nbsp; <span class="top"> Bank Account </span> <span class="linkss">Linked Account</span></li>
+
+
+
+
+
+          </ul>
+         
+         <input class="btn_style" type="submit" value="Withdraw"> 
+        </form>
+      </div>
+    </div>
+
+
+    <script>
+        function validate(evt) {
+  var theEvent = evt || window.event;
+  var key = theEvent.keyCode || theEvent.which;
+  key = String.fromCharCode( key );
+  var regex = /[0-9]|\./;
+  if( !regex.test(key) ) {
+    theEvent.returnValue = false;
+    if(theEvent.preventDefault) theEvent.preventDefault();
+  }
+}
+    </script>
+    
+</body>
+</html>
